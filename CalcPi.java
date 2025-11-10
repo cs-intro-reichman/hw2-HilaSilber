@@ -4,14 +4,14 @@ public class CalcPi {
 		double javaPi = Math.PI;
 		double piApprox = 0.0;
 		for (int i = 1; i <= terms *2 -1 ; i += 4){
-			System.out.printf("+%d\n", i);
+			//System.out.printf("+%d\n", i);
 			//System.out.println(i);
 			//System.out.println(1.0/i);
 			piApprox += 1.0/i;
 
 		}
 		for (int j = 3; j <= terms*2 -1; j += 4){
-			System.out.println(j);
+			//System.out.println(j);
 			//System.out.println(1.0/j);
 			piApprox -= 1.0/j;
 		}
